@@ -1,2 +1,32 @@
-오늘은 shell의 사용방법과 git에 대해 배웠습니다.
-git과 연동하고 psuh하는 방법을 잘 익혀야될 것 같습니다.
+# 20190902
+## 터미널 명령어
+- ls : 현재 폴더의 파일을  보여준다. (ls -a : 숨김파일도 보여준다.)
+- cd : 폴더를 이동한다.
+- cp : 파일을 복사한다.
+- rm : 파일을 삭제한다. (rm -rf : 폴더를 삭제한다.)
+- mkdir : 폴더를 생성한다.
+
+## VIM
+- VIM은 텍스트 에디터이다.
+
+### VIM 명령어
+-i : 입력 모드
+-v : 비주얼 모드
+-esc : 기본 모드
+-o O : 기본 모드에서 줄 추가
+-: : 기본모드에서 저장설정(w : 저장 wq : 저장후 종료 q! : 저장하지않고 종료)
+
+## GIT
+- git add로 수정내용을 업로드한다.
+- git commit 으로 수정 내용을 작성할 수 있다.
+- git push로 서버에 보낼 수 있다.
+
+###폴더 생성 후 연결
+$ git init
+$ git remote add origin 주소
+$ git commit
+$ git push -u origin master
+
+###GIT 생성 후 연결
+$ git init
+$ git clone 주소  
